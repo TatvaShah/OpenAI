@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Audio } from 'react-loader-spinner'
 
 const App = () => {
-  const [inputText, setInputText] = useState('Make me a LOGO. Project Name : EVDC, Project theme color : #32a852, Industry : Cryptocurrency, Electric Vehicle Background color : #000000,');
+  const [inputText, setInputText] = useState('');
   const [generatedImage, setGeneratedImage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [model, setModel] = useState('dall-e-2');
